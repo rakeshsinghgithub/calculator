@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Roboto:ital,wght@0,400;0,700;0,900;1,400&family=Ubuntu:ital@1&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.wrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 220px;
+    background-color: rgb(22, 22, 21);
+    border-radius: 15px;
+    row-gap: 35px;
+}
+#input-Box{
+    
+     background: transparent; 
+    width: 190px;
+    color: white;
+    font-weight: bolder;
+    border-radius: 5px;
+    box-sizing: border-box;
+    text-align: right;
+    font-size: 2.2rem;
+    border: none;
+}
+input::placeholder{
+    color: white;
+}
+.input-sec{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap:7px;
+    
+}
+.btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+    column-gap:7px;
+   
+}
+button{
+    font-size: 1.1rem;
+    font-weight: bold;
+    background-color: #38332d;
+    box-shadow: 0px 2px  rgb(117, 115, 115);
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: none;
+    color: white;
+    cursor: pointer;
+  
+}
+.operator{
+    color: wheat;
+}
+#equal{
+    background-color: orangered;
+}
